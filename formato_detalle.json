@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "name": "SELECCION MULTIPLE CON AFIRMACIONES",
+    "argumentacion": "I. CORRECTO|INCORRECTO: [Aquí del por que es ...]\n\nII. CORRECTO|INCORRECTO: [Aquí del por que es ...]\n\nIII. CORRECTO|INCORRECTO: [Aquí del por que es ...]\n\nIV. CORRECTO|INCORRECTO: [Aquí del por que es ...]\n\n<<Agregar los saltos de línea después de cada argumentación>>",
+    "structure": "[Aquí va el contenido de la pregunta junto a un contexto (sí aplica) mas un conector lógico]\nI. [Aquí el contenido del enunciado I]\nII. [Aquí el contenido del enunciado II]\nIII. [Aquí el contenido del enunciado III]\nIV. [Aquí el contenido del enunciado IV]\nREGLAS PARA LOS ENUNCIADOS.\n- Todos los enunciados deben ser de la misma longitud.\n- Debes combinar enunciados correctos e incorrectos.\n- Los enunciados no deben ser evidenciados por el contexto de la pregunta.\n- Los enunciados no deben ser obvias.",
+    "description": "[En este formato al alumno se le presenta una pregunta acompañado de 4 enunciados donde el alumno deberá verificar cuáles son verdaderas y cuáles son falsas]",
+    "task": "revises que la pregunta la secuencia de argumentación coincida con la clave. Además que las alternativas deben estar en formato A) I y II, B) II, III y IV, C) Solo II, D) Solo III, E) I, II, III. Este solo es un ejemplo, no es la salida final."
+  },
+  {
+    "id": 1,
+    "name": "RELACIONAR COLUMNAS",
+    "argumentacion": "[FORMATO UNICO DE ARGUMENTACIÓN]\n(Ejemplo)\nI.b: Detallará por qué es la relación\n\nII.a: Detallar por qué es la relación correcta\n\nIII.d: Detallar por qué es la relación correcta\n\nIV.c: Detallar por qué es la relación correcta\n\n<<Agregar los saltos de línea después de cada argumentación>>",
+    "structure": "[Contenido de la pregunta con contexto sí aplica]\n\nSOLO 4 enunciados en cada bloque enumeradas de la siguiente manera.\n\n[BLOQUE EN ROMANOS]\nI. [Contenido de la I]\nII. [Contenido de la II]\nIII. [Contenido de la III]\nIV. [Contenido de la IV]\n\n[BLOQUE EN LETRAS]\na. [Contenido del enunciado a]\nb. [Contenido del enunciado b]\nc. [Contenido del enunciado c]\nd. [Contenido del enunciado d]\n\nREGLAS DE RELACIÓN PARA LOS ENUNCIADOS\n- Asegúrate de que la relación entre números romanos y letras sea única.\n- Está prohibido que la clave correcta siga un patrón secuencial directo o lineal.\n- Al menos dos correspondencias deben romper cualquier orden correlativo.\n- La distribución debe parecer natural, variada y no predecible.",
+    "description": "Esta es una pregunta donde al alumno se le presenta un contenido de pregunta y contexto en caso aplique junto con dos bloques de 4 enunciados por bloque, los cuales debe relacionar de manera lógica y correspondiente.",
+    "task": "Revisa si la secuencia de argumentación es lineal, por ejemplo I.a, II.b, III.c, IV.d. En este caso debes reorganizar los enunciados y generar nuevas alternativas para evitar esa linealidad."
+  },
+  {
+    "id": 2,
+    "name": "COMPLETAR ORACIONES",
+    "argumentacion": "Solo argumenta sobre la respuesta correcta, usa las palabras y completa la información. No uses términos como `La opción X`, `La alternativa X`, `La respuesta es la X`, o algún patrón similar que haga referencia a la alternativa.",
+    "structure": "[Este es el contenido de la pregunta __________ que tiene espacios en blanco para ________ rellenar]\n\nLa cantidad de espacios en blanco depende del nivel. Para NIVEL III debe tener 3 espacios en blanco y para NIVEL II y NIVEL I debe tener 2 espacios en blanco.\n\nREGLAS PARA LA PREGUNTA Y ESPACIOS EN BLANCO\n- La cantidad de espacios en blanco debe ser la misma que la cantidad de palabras en la respuesta correcta.\n- Las palabras de la respuesta correcta deben estar separadas por un guion (-).",
+    "description": "En este formato al alumno se le presenta una pregunta que tiene espacios en blanco marcados con guiones bajos, los cuales debe completar con palabras para darle coherencia y sentido al enunciado.",
+    "task": "Revisa que el enunciado tenga como mínimo 2 espacios y como máximo 3. Cada alternativa debe tener la misma cantidad de segmentos que los espacios, separados por guiones. El contexto nunca debe revelar la respuesta ni dar pistas obvias."
+  },
+  {
+    "id": 3,
+    "name": "VERDADERO/FALSO",
+    "argumentacion": "I. VERDADERO|FALSO: [Detallará por qué es ...]\n\nII. VERDADERO|FALSO: [Detallará por qué es ...]\n\nIII. VERDADERO|FALSO: [Detallará por qué es ...]\n\nIV. VERDADERO|FALSO: [Detallará por qué es ...]\n\n<<Agregar los saltos de línea después de cada argumentación>>",
+    "structure": "[Contenido de la pregunta más un contexto si aplica]\n\nBLOQUE DE ENUNCIADOS\nI. [Contenido del enunciado I]\nII. [Contenido del enunciado II]\nIII. [Contenido del enunciado III]\nIV. [Contenido del enunciado IV]\n\nREGLAS PARA LOS ENUNCIADOS\n- Todos deben tener una longitud similar.\n- No deben ser muy obvios.\n- Si aplica contexto, los enunciados deben complementar el contexto sin revelar directamente la respuesta.",
+    "description": "Esta es una pregunta donde al alumno se le presentan 4 enunciados enumerados en romanos y debe determinar si cada uno es verdadero o falso.",
+    "task": "Verifica que la secuencia V/F de cada enunciado coincida exactamente con la alternativa correcta. Luego verifica que la respuesta final, la argumentación y la alternativa sean coherentes entre sí."
+  },
+  {
+    "id": 4,
+    "name": "PREGUNTA DIRECTA",
+    "argumentacion": "Aquí va la argumentación precisa, argumentando sin hacer referencias a las alternativas tales como `La opción X`, `La alternativa X`, `La respuesta es X` o patrones similares.",
+    "structure": "[Contenido de la pregunta con contexto si aplica]",
+    "description": "Esta pregunta debe contener un contenido de pregunta, que puede incluir contexto dependiendo del tipo de pregunta, seguido de 5 alternativas, ya sea en una sola palabra o en oraciones de 5 o 7 palabras como máximo.",
+    "task": "Revisa la argumentación y verifica que sea coherente con la respuesta marcada como correcta."
+  }
+]
